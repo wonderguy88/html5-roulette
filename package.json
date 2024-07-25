@@ -18,7 +18,8 @@
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
     "start": "react-scripts --openssl-legacy-provider start",
-    "build": "node --openssl-legacy-provider ./scripts/build-non-split.js",
+    "build": "react-scripts --openssl-legacy-provider build",
+    "wp": "node --openssl-legacy-provider ./scripts/build-non-split.js",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
