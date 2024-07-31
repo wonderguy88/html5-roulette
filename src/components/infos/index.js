@@ -20,7 +20,7 @@ const Info = () => {
     <>
       <Row className="info-content">
         <Col md={9} sm={12}>
-          <Row>
+          <Row className={showDetail ? "expand-row" : "default-row"}>
             <Col md={7}>
               <div className="bet-info">
                 <div className="info-child">

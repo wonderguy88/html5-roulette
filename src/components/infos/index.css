@@ -8,6 +8,16 @@
   margin-right: 0;
 }
 
+.default-row {
+  height: 100%;
+}
+.default-row .bet-info {
+  height: 100%;
+}
+.default-row .latest-numbers {
+  height: 100%;
+}
+
 .bet-info {
   display: flex;
   justify-content: space-between;
