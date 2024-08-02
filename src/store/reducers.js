@@ -11,7 +11,7 @@ export const initialState = {
 
   //
   showResult: false,
-  showDetail: true,
+  showDetail: false,
 };
 
 export default (state = initialState, { type, payload }) => {
